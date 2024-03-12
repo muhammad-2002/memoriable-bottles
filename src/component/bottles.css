@@ -1,0 +1,14 @@
+@media screen and (min-width: 500px) {
+  .bottles-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .bottles-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
